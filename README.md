@@ -1,4 +1,6 @@
-# sndc - Soundcloud downloader
+# sndc - Node soundcloud downloader
+
+<img title="sndc-icon" src="./sndc.png" />
 
 Install application's dependencies:
 
@@ -9,4 +11,4 @@ Start the application:
 > npm start
 
 Paste a valid soundcloud URL to the prompt and hit enter!
-Your mp3 file will saved in the downloads folder.
+Your mp3 file will be saved in the downloads folder.
