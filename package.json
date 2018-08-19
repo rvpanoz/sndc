@@ -25,6 +25,7 @@
   "homepage": "https://github.com/rvpanoz/sndc#readme",
   "dependencies": {
     "ndb": "^1.0.17",
+    "progress": "^2.0.0",
     "prompts": "^0.1.14",
     "querystring": "^0.2.0",
     "request": "^2.87.0",
@@ -42,5 +43,11 @@
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.26.0",
     "nodemon": "^1.18.3"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "parser": "flow",
+    "formatOnSave": true,
+    "proseWrap": true
   }
 }
