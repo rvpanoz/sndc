@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/rvpanoz/sndc#readme",
   "dependencies": {
+    "cli-progress": "^2.1.0",
     "ndb": "^1.0.17",
-    "progress": "^2.0.0",
     "prompts": "^0.1.14",
     "querystring": "^0.2.0",
     "request": "^2.87.0",
