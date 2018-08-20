@@ -6,15 +6,13 @@ Download tracks from soundcloud with this Command-Line/Terminal application
 
 ## Run the app
 
-Clone the repo and install application's dependencies
-
-> git clone https://github.com/rvpanoz/sndc.git
-
-> cd sndc
+### Clone the repo and then in the application's folder run 
 
 > npm install
 
-Start the application:
+to install application's dependencies
+
+### Start the application:
 
 > npm start
 
