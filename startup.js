@@ -21,8 +21,8 @@ const start = async () => {
       const { stream_url, title } = trackData;
       const result = await download(stream_url, title);
 
-      if(result && result === 'completed') {
-        start()
+      if (result && result === "completed") {
+        start();
       }
     }
   }
