@@ -9,7 +9,8 @@ const start = async () => {
   const qs = await prompts({
     type: "text",
     name: "trackUrl",
-    message: "Enter a soundcloud url"
+    message: "Enter a soundcloud url",
+    initial: config.initial || false
   });
 
   if (qs.trackUrl && qs.trackUrl !== "") {
