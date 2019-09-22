@@ -24,17 +24,17 @@
   },
   "homepage": "https://github.com/rvpanoz/sndc#readme",
   "dependencies": {
-    "cli-progress": "^2.1.0",
-    "ndb": "^1.0.17",
-    "prompts": "^0.1.14",
+    "cli-progress": "^3.1.0",
+    "ndb": "^1.1.5",
+    "prompts": "^2.2.1",
     "querystring": "^0.2.0",
     "request": "^2.87.0",
-    "request-promise": "^4.2.2"
+    "request-promise": "^4.2.4"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
+    "babel-loader": "^8.0.6",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-es2015-classes": "^6.24.1",
     "babel-polyfill": "^6.26.0",
@@ -42,12 +42,12 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.26.0",
-    "nodemon": "^1.18.3"
+    "nodemon": "^1.19.2"
   },
   "prettier": {
     "printWidth": 80,
     "parser": "flow",
     "formatOnSave": true,
-    "proseWrap": true
+    "proseWrap": "always"
   }
 }
