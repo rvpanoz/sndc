@@ -1,7 +1,5 @@
 # sndc - Node soundcloud downloader
 
-<img title="sndc-icon" src="./sndc.png" />
-
 Download tracks from soundcloud with this Command-Line/Terminal application
 
 ## Run the app
